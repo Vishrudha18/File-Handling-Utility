@@ -1,124 +1,18 @@
-# File Handling Utility
+## Getting Started
 
-Company : Codtech IT Solutions Pvt Limited
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-Name : Vishrudha.N
+## Folder Structure
 
-Intern ID : CTIS1057
+The workspace contains two folders by default, where:
 
-Domain : Java Programming
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
 
-Duration : 4 Weeks
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-Mentor : Neela Santhosh
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-# File Handling Utility in Java
+## Dependency Management
 
-## 📌 Task Overview
-This project demonstrates **basic file handling operations in Java**.  
-The program allows the user to **write**, **read**, and **modify (append)** text files using console input.
-
----
-
-## 🎯 Objective
-To create a Java application that performs:
-- Writing user input to a text file
-- Reading content from a text file
-- Modifying an existing text file by appending user input
-
----
-
-## 🛠️ Technologies Used
-- Java (JDK 8 or higher)
-- Java I/O Package (`java.io`)
-- Scanner (`java.util`)
-
----
-
-## 📂 File Structure
-Codtech IT Internship TASK 1/
-│
-├── .vscode/
-│   └── settings.json
-├── bin/
-│   └── Task1_Filehandling.class
-├── lib/
-│   └── json-20251224.jar
-├── src/
-│   └── Task1_Filehandling.java
-├── sample.txt
-└── README.md
-
----
-
-## ⚙️ Features
-- Menu-driven program
-- User input based file operations
-- Automatic file creation if not present
-- Clear console messages for each operation
-
----
-
-## 🚀 How to Run the Program
-
-1. Open terminal or command prompt  
-2. Navigate to the project directory  
-3. Compile the Java file:
-
----
-
-## 🧪 Program Operations
-
-### 1️⃣ Write File
-- Takes input from the user
-- Writes content to `sample.txt`
-- Overwrites existing data
-
-### 2️⃣ Read File
-- Reads content line by line
-- Displays output on console
-
-### 3️⃣ Modify File
-- Takes input from the user
-- Appends content without deleting existing data
-
----
-
-## 📄 Sample Output
------ FILE HANDLING UTILITY -----
-
-Write File
-
-Read File
-
-Modify File
-
-Exit
-Enter your choice: 1
-
-Enter text to write into file:
-Java File Handling using user input
-File written successfully.
-
-
-<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/80dddafe-0d66-4128-8412-84e9af3c2d26" />
-
-
-<img width="1920" height="1015" alt="Image" src="https://github.com/user-attachments/assets/289fbd27-3bcb-4fbb-83ab-7d712dec2ef9" />
-
-
----
-
-## 📚 Concepts Covered
-- File handling using `FileReader` and `FileWriter`
-- Buffered I/O operations
-- Exception handling
-- User input handling
-
----
-
-## ✅ Conclusion
-This project successfully demonstrates **read, write, and modify operations on text files** using Java, fulfilling the requirements of **TASK-1: File Handling Utility**.
-
----
-
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
