@@ -12,7 +12,7 @@ Duration : 4 Weeks
 
 Mentor : Neela Santhosh
 
-# File Handling Utility in Java
+
 
 ## 📌 Task Overview
 This project demonstrates **basic file handling operations in Java**.  
@@ -116,6 +116,7 @@ This project successfully demonstrates **read, write, and modify operations on t
 
 ---
 ge your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
 
 
 
